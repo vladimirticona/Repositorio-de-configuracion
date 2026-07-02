@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: adapter-rest
-        image: vladimirticona/mis-patitas-backend:latest
+        image: vladimirticona/mis-patitas-backend:v1.7.0
         ports:
         - containerPort: 3000
         envFrom:
